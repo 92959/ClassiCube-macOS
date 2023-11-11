@@ -31,6 +31,7 @@ jobs:
       - name: Download latest client
         run: |
           curl -LO https://cdn.classicube.net/client/release/osx64/ClassiCube.tar.gz
+          tar -xvzf ./ClassiCube.tar.gz
 
       - name: Update executable
         run: |
